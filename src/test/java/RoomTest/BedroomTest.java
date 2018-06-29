@@ -24,7 +24,7 @@ public class BedroomTest {
 
     @Test
     public void canGetCapacity(){
-        assertEquals(1, bedroom.getCapacity());
+        assertEquals(1, bedroom.getCapacity(), 0);
     }
 
     @Test

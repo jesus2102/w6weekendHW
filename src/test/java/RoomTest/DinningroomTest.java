@@ -17,6 +17,11 @@ public class DinningroomTest {
 
     @Test
     public void hasCapacity(){
-        assertEquals(50, dinningroom.getCapacity());
+        assertEquals(50, dinningroom.getCapacity(), 0);
+    }
+
+    @Test
+    public void hasName(){
+        assertEquals("Little China Restaurant", dinningroom.getName());
     }
 }

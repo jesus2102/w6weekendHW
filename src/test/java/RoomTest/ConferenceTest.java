@@ -18,7 +18,7 @@ public class ConferenceTest {
 
     @Test
     public void hasCapacity(){
-        assertEquals(100, conference.getCapacity());
+        assertEquals(100, conference.getCapacity(), 0);
     }
 
     @Test
