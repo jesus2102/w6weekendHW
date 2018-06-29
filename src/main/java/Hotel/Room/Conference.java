@@ -10,4 +10,8 @@ public class Conference extends Room {
         this.name = name;
         this.rate = rate;
     }
+
+    public String getName() {
+        return name;
+    }
 }

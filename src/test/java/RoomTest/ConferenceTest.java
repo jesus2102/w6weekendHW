@@ -13,12 +13,17 @@ public class ConferenceTest {
 
     @Before
     public void before(){
-        conference = new Conference(100,"Embassador", 12000.00);
+        conference = new Conference(100,"Balmoral", 12000.00);
     }
 
     @Test
     public void hasCapacity(){
         assertEquals(100, conference.getCapacity());
+    }
+
+    @Test
+    public void hasName(){
+        assertEquals("Balmoral", conference.getName());
     }
 
 }
