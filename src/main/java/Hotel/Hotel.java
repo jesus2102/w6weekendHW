@@ -9,7 +9,11 @@ public class Hotel {
     private ArrayList<Room> rooms;
 
 
-    public Hotel(){}
+    public Hotel(){
+        this.rooms = new ArrayList<>();
+    }
 
-
+    public int numberOfRooms(){
+        return this.rooms.size();
+    }
 }
