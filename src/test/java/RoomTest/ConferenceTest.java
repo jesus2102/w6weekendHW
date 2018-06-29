@@ -13,7 +13,7 @@ public class ConferenceTest {
 
     @Before
     public void before(){
-        conference = new Conference(100,"Balmoral", 12000.00);
+        conference = new Conference(100,"Balmoral", 1200.00);
     }
 
     @Test
@@ -24,6 +24,11 @@ public class ConferenceTest {
     @Test
     public void hasName(){
         assertEquals("Balmoral", conference.getName());
+    }
+
+    @Test
+    public void hasRate() {
+        assertEquals(1200.00, conference.getRate(), 0.01);
     }
 
 }

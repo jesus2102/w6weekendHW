@@ -14,4 +14,8 @@ public class Conference extends Room {
     public String getName() {
         return name;
     }
+
+    public double getRate() {
+        return rate;
+    }
 }
