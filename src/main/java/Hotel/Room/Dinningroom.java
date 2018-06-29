@@ -1,4 +1,11 @@
 package Hotel.Room;
 
-public class Dinningroom {
+public class Dinningroom extends Room{
+
+    private String name;
+
+    public Dinningroom(int capacity, String name){
+        super(capacity);
+        this.name = name;
+    }
 }
