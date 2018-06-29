@@ -21,4 +21,12 @@ public class Hotel {
     public void addRoom(Bedroom bedroom) {
         this.rooms.add(bedroom);
     }
+
+    public void removeRoom(Bedroom bedroom){
+        this.rooms.remove(bedroom);
+    }
+
+    public void removeAllRooms(){
+        this.rooms.clear();
+    }
 }
