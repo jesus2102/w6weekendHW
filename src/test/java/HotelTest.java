@@ -55,10 +55,10 @@ public class HotelTest {
         assertEquals(0, hotel.numberOfRooms());
     }
 
-//    @Test
-//    public void canAddRoom(){
-//        hotel.addRoom(bedroom1);
-//        assertEquals(1, hotel.numberOfRooms());
-//
-//    }
+    @Test
+    public void canAddRoom(){
+        hotel.addRoom(bedroom1);
+        assertEquals(1, hotel.numberOfRooms());
+
+    }
 }
