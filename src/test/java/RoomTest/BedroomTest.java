@@ -33,10 +33,9 @@ public class BedroomTest {
         assertEquals(1, bedroom.getNumberOfGuests());
     }
 
-    @Test
-    public void canHaveType(){
-        assertEquals(BedroomType.SINGLE, bedroom.getType());
-    }
 
-    @
+    @Test
+    public void canHavePrice(){
+        assertEquals(45, bedroom.getPrice(), 0.00);
+    }
 }
