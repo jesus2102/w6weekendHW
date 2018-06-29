@@ -2,20 +2,20 @@ package Hotel.Room;
 
 public enum BedroomType {
 
-    SINGLE(45),
-    DOUBLE(80),
-    SUIT(110),
-    LUXURYSUIT(150),
-    FAMILY(120);
+    SINGLE(45.00),
+    DOUBLE(80.00),
+    SUIT(110.00),
+    LUXURYSUIT(150.00),
+    FAMILY(120.00);
 
 
-    private final int value;
+    private final double value;
 
-    BedroomType(int value){
+    BedroomType(double value){
         this.value = value;
     }
 
-    public int getValue(){
+    public double getValue(){
         return this.value;
     }
 }

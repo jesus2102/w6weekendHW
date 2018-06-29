@@ -15,7 +15,6 @@ public class Bedroom extends Room{
         this.type = type;
     }
 
-
     public double getPrice() {
         return this.type.getValue();
     }
